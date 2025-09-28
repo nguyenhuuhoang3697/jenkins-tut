@@ -2,7 +2,7 @@
 version: '3.8'
 services:
   jenkins:
-    bild:
+    buld:
       context: .
       dockerfile: Dockerfile.jenkins
     # image: jenkins/jenkins:lts

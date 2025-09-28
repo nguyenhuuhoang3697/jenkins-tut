@@ -4,7 +4,7 @@ USER root
 
 # Cài docker CLI thay vì cả docker engine (nhẹ hơn nhiều so với docker.io)
 RUN apt-get update && \
-    apt-get install -y docker-cli && \
+    apt-get install -y docker.io && \
     rm -rf /var/lib/apt/lists/*
 
 # Quay lại user jenkins để an toàn hơn (nếu muốn)
